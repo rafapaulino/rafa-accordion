@@ -1,0 +1,24 @@
+{
+  "name": "rafa-accordion",
+  "homepage": "https://github.com/rafapaulino/rafa-accordion",
+  "description": "Accordion do Bootstrap com efeitos",
+  "main": "",
+  "license": "MIT",
+  "keywords": [
+    "bootstrap accordion"
+  ],
+  "authors": [
+    "Rafael Paulino"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
+}

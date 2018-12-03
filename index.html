@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Rafael Paulino">
+<title>Carrossel responsivo - Bootstrap 4</title>
+
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
+<link href="css/carrossel.css" rel="stylesheet">
+</head>
+<body>
+<main itemscope>
+
+    <div class="wrapCarousel d-print-none">
+        <!-- carrossel -->
+        <div id="carouselHome" class="carousel slide carouselSwipe" data-interval="8000" data-ride="carousel" itemscope itemtype="http://schema.org/ItemList">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselHome" data-slide-to="1"></li>
+                <li data-target="#carouselHome" data-slide-to="2"></li>
+                <li data-target="#carouselHome" data-slide-to="3"></li>
+                <li data-target="#carouselHome" data-slide-to="4"></li>
+                <li data-target="#carouselHome" data-slide-to="5"></li>
+                <li data-target="#carouselHome" data-slide-to="6"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#" itemprop="url"><img class="d-block w-100" src="http://placehold.it/960x370" alt="First slide"></a>
+                    <div class="carousel-caption d-md-block">
+                        <h5 itemprop="name"><a href="#" itemprop="url" data-animation="animated fadeInLeft">First slide label</a></h5>
+                        <p itemprop="itemListElement"><a href="#" itemprop="url" data-animation="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" itemprop="url"><img class="d-block w-100" src="http://az545403.vo.msecnd.net/uploads/2017/12/file-20171219130920-960previsoes2018.jpg" alt="Second slide"></a>
+                    <div class="carousel-caption d-md-block">
+                        <h5 itemprop="name"><a href="#" itemprop="url" data-animation="animated fadeInLeft">Economia</a></h5>
+                        <p itemprop="itemListElement"><a href="#" itemprop="url" data-animation="animated bounceInLeft">Fiesp prevê fortalecimento da retomada da economia em 2018</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" itemprop="url"><img class="d-block w-100" src="http://az545403.vo.msecnd.net/uploads/2015/06/emprego.jpg" alt="Second slide"></a>
+                    <div class="carousel-caption d-md-block">
+                        <h5 itemprop="name"><a href="#" itemprop="url" data-animation="animated fadeInLeft">Economia</a></h5>
+                        <p itemprop="itemListElement"><a href="#" itemprop="url" data-animation="animated bounceInLeft">Indústria paulista gera 10.500 empregos em janeiro de 2018</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" itemprop="url"><img class="d-block w-100" src="http://az545403.vo.msecnd.net/uploads/2015/09/trabalho_fiesp.jpg" alt="Third slide"></a>
+                    <div class="carousel-caption d-md-block">
+                        <h5 itemprop="name"><a href="#" itemprop="url" data-animation="animated fadeInLeft">Economia</a></h5>
+                        <p itemprop="itemListElement"><a href="#" itemprop="url" data-animation="animated bounceInLeft">Em 2018, 24,4% da indústria paulista deve ampliar contratações</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" itemprop="url"><img class="d-block w-100" src="http://az545403.vo.msecnd.net/uploads/2018/02/file-20180216183919-notaoficial2018.jpg" alt="Economia"></a>
+                    <div class="carousel-caption d-md-block">
+                        <h5 itemprop="name"><a href="#" itemprop="url" data-animation="animated fadeInLeft">Economia</a></h5>
+                        <p itemprop="itemListElement"><a href="#" itemprop="url" data-animation="animated bounceInLeft">Para o PIB crescer mais em 2018, juros precisam cair</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" itemprop="url"><img class="d-block w-100" src="http://az545403.vo.msecnd.net/uploads/2016/03/ic_agro_960.jpg" alt="Economia"></a>
+                    <div class="carousel-caption d-md-block">
+                        <h5 itemprop="name"><a href="#" itemprop="url" data-animation="animated fadeInLeft">IC Agro</a></h5>
+                        <p itemprop="itemListElement"><a href="#" itemprop="url" data-animation="animated bounceInLeft">Confiança do Agronegócio avança para 100,3 pontos e encerra 2017 com otimismo moderado</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" itemprop="url"><img class="d-block w-100" src="http://az545403.vo.msecnd.net/uploads/2018/02/file-20180222144944-960x370mg1008.jpg" alt="Economia"></a>
+                    <div class="carousel-caption d-md-block">
+                        <h5 itemprop="name"><a href="#" itemprop="url" data-animation="animated fadeInLeft">Educação</a></h5>
+                        <p itemprop="itemListElement"><a href="#" itemprop="url" data-animation="animated bounceInLeft">‘Se a educação sempre foi importante, agora é indispensável’, diz Skaf em palestra no Teatro do Sesi</a></p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--/ carrossel -->
+    </div>
+
+</main>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
+<script src="js/carrossel.js"></script>
+</body>
+</html>
