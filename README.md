@@ -1,13 +1,12 @@
-# Bootstrap Carrossel com Efeitos
-
-Adiciona umas animações no carrossel do Boostrap
+# Bootstrap Accordion
+Faz pequenas mudanças no accordion do Boostrap
 ## Features
 
 - `v1.0.0` Criação do Plugin.
 
 ### Important informations
 
-- To install is quite simple: bower install rafa-carrossel
+- To install is quite simple: bower install rafa-accordion
 -----
 
 ## Example of use
